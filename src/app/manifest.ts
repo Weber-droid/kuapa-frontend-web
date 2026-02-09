@@ -83,7 +83,7 @@ export default function manifest(): MetadataRoute.Manifest {
         form_factor: "narrow",
         label: "Camera scan for disease detection",
       },
-    ],
+    ] as any,
     shortcuts: [
       {
         name: "Scan Crop",

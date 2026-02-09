@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import { indexedDBStorage } from "@/lib/utils/storage";
-import type { ScanResult, ScanState, CropType, Disease } from "@/types";
+import type { ScanResult, ScanState, CropType } from "@/types";
 import { mockDetection } from "@/lib/api/detection";
 
 interface ScanActions {

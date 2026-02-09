@@ -3,6 +3,10 @@
   "/page": "app/page.js",
   "/history/page": "app/history/page.js",
   "/profile/page": "app/profile/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/notifications/page": "app/notifications/page.js",
+  "/scan/page": "app/scan/page.js",
+  "/diseases/page": "app/diseases/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(auth)/signup/page": "app/(auth)/signup/page.js"

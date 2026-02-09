@@ -44,7 +44,8 @@ export const authApi = {
     }
 
     // Return user without password
-    const { password, ...userWithoutPassword } = user;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { password: _password, ...userWithoutPassword } = user;
     return {
       success: true,
       data: userWithoutPassword,
@@ -97,7 +98,8 @@ export const authApi = {
 
     mockUsers.set(data.email, newUser);
 
-    const { password, ...userWithoutPassword } = newUser;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { password: _password, ...userWithoutPassword } = newUser;
     return {
       success: true,
       data: userWithoutPassword,
@@ -106,10 +108,11 @@ export const authApi = {
   },
 
   // Request password reset
-  async requestPasswordReset(email: string): Promise<ApiResponse<null>> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async requestPasswordReset(_email: string): Promise<ApiResponse<null>> {
     await delay(1000);
 
-    const user = mockUsers.get(email);
+    // const user = mockUsers.get(email);
 
     // Always return success for security (don't reveal if email exists)
     return {
@@ -151,7 +154,7 @@ export const authApi = {
     let foundUser: (User & { password: string }) | undefined;
     let userEmail: string | undefined;
 
-    for (const [email, user] of mockUsers.entries()) {
+    for (const [email, user] of Array.from(mockUsers.entries())) {
       if (user.id === userId) {
         foundUser = user;
         userEmail = email;
@@ -181,7 +184,8 @@ export const authApi = {
       mockUsers.set(userEmail, updatedUser);
     }
 
-    const { password, ...userWithoutPassword } = updatedUser;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { password: _password, ...userWithoutPassword } = updatedUser;
     return {
       success: true,
       data: userWithoutPassword,
@@ -201,7 +205,7 @@ export const authApi = {
     let foundUser: (User & { password: string }) | undefined;
     let userEmail: string | undefined;
 
-    for (const [email, user] of mockUsers.entries()) {
+    for (const [email, user] of Array.from(mockUsers.entries())) {
       if (user.id === userId) {
         foundUser = user;
         userEmail = email;

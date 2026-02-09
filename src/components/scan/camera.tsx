@@ -63,7 +63,7 @@ export function CameraComponent({ onCapture, onClose }: CameraComponentProps) {
       // Check for flash support
       const track = stream.getVideoTracks()[0];
       const capabilities = track.getCapabilities?.();
-      setHasFlash(!!(capabilities as any)?.torch);
+      setHasFlash(!!(capabilities as unknown as { torch: boolean })?.torch);
     } catch (err) {
       console.error("Camera error:", err);
       if (err instanceof Error) {
@@ -168,6 +168,7 @@ export function CameraComponent({ onCapture, onClose }: CameraComponentProps) {
     if (isReady) {
       startCamera();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [facingMode]);
 
   return (

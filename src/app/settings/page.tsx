@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import {
     Bell,
-    Bell,
     Moon,
     Sun,
     Globe,

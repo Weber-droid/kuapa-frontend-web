@@ -29,7 +29,8 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     ref
   ) => {
     const [showPassword, setShowPassword] = React.useState(false);
-    const inputId = id || React.useId();
+    const uniqueId = React.useId();
+    const inputId = id || uniqueId;
     const isPassword = type === "password";
     const inputType = isPassword && showPassword ? "text" : type;
 

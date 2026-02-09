@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowLeft, Bell, Menu, Wifi, WifiOff } from "lucide-react";
+import { ArrowLeft, Bell, Wifi, WifiOff } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { useEffect, useState } from "react";
 

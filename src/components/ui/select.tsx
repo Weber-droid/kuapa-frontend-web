@@ -35,7 +35,8 @@ const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
     },
     ref
   ) => {
-    const selectId = id || React.useId();
+    const uniqueId = React.useId();
+    const selectId = id || uniqueId;
 
     const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
       onChange?.(e.target.value);

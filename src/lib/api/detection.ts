@@ -1,5 +1,5 @@
 import type { ScanResult, CropType, Disease } from "@/types";
-import { diseases, getDiseasesByCrop } from "./diseases";
+import { getDiseasesByCrop } from "./diseases";
 
 // Simulates AI disease detection
 export const mockDetection = async (
@@ -153,7 +153,8 @@ const getHealthyRecommendations = (cropType: CropType): string[] => {
 
 // Mock function to analyze image quality
 export const analyzeImageQuality = (
-  imageData: string
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  _imageData: string
 ): {
   isValid: boolean;
   quality: "good" | "fair" | "poor";
