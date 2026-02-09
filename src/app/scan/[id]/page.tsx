@@ -144,6 +144,7 @@ export default function ScanResultPage() {
         <Card className="overflow-hidden p-0">
           <div className="aspect-square">
             {scan.imageUrl ? (
+              // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={scan.imageUrl}
                 alt="Scanned crop"

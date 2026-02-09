@@ -83,6 +83,7 @@ export default function manifest(): MetadataRoute.Manifest {
         form_factor: "narrow",
         label: "Camera scan for disease detection",
       },
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ] as any,
     shortcuts: [
       {

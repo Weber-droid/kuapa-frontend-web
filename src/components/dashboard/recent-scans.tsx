@@ -77,6 +77,7 @@ function ScanListItem({ scan }: { scan: ScanResult }) {
       {/* Thumbnail */}
       <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-slate-100 dark:bg-slate-700">
         {scan.thumbnailUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={scan.thumbnailUrl}
             alt="Scan thumbnail"

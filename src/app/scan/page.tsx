@@ -261,6 +261,7 @@ export default function ScanPage() {
         <>
           {/* Image Preview */}
           <div className="relative overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={capturedImage}
               alt="Captured crop"

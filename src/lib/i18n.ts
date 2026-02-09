@@ -14,9 +14,13 @@ export const localeNames: Record<Locale, string> = {
 };
 
 // Load messages for a locale
-export default getRequestConfig(async ({ locale }) => ({
-  messages: (await import(`@/messages/${locale}.json`)).default,
-}));
+export default getRequestConfig(async ({ locale }) => {
+  const finalLocale = locale || defaultLocale;
+  return {
+    locale: finalLocale,
+    messages: (await import(`@/messages/${finalLocale}.json`)).default,
+  };
+});
 
 // Helper to get locale from path or default
 export function getLocaleFromPath(pathname: string): Locale {
