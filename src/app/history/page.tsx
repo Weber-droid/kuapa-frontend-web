@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import {
   Search,
   Filter,
-  ChevronRight,
   Leaf,
   AlertTriangle,
   CheckCircle,
@@ -17,7 +16,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge, CropBadge } from "@/components/ui/badge";
+import { CropBadge } from "@/components/ui/badge";
 import { useScanStore } from "@/stores/scan-store";
 import { CROP_LABELS, type CropType, type ScanResult } from "@/types";
 import { cn } from "@/lib/utils/cn";

@@ -14,16 +14,13 @@ import {
   HelpCircle,
   Shield,
   Bell,
-  Globe,
   Trash2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge, CropBadge } from "@/components/ui/badge";
+import { CropBadge } from "@/components/ui/badge";
 import { useAuthStore } from "@/stores/auth-store";
 import { useScanStore } from "@/stores/scan-store";
-import { cn } from "@/lib/utils/cn";
-import { CROP_LABELS } from "@/types";
 
 export default function ProfilePage() {
   const router = useRouter();

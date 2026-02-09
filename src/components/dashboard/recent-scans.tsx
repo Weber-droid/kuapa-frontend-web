@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ChevronRight, Leaf, AlertTriangle } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
-import { Badge, CropBadge } from "@/components/ui/badge";
+import { CropBadge } from "@/components/ui/badge";
 import type { ScanResult } from "@/types";
 
 interface RecentScansProps {

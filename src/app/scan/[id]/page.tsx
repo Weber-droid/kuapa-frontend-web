@@ -7,7 +7,6 @@ import {
   CheckCircle,
   AlertTriangle,
   Share2,
-  Download,
   ChevronRight,
   Leaf,
   Bug,
@@ -19,9 +18,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ConfidenceGauge } from "@/components/ui/confidence-gauge";
-import { Badge, SeverityBadge, CropBadge } from "@/components/ui/badge";
+import { SeverityBadge, CropBadge } from "@/components/ui/badge";
 import { useScanStore } from "@/stores/scan-store";
-import type { ScanResult, Disease } from "@/types";
+import type { ScanResult } from "@/types";
 import { cn } from "@/lib/utils/cn";
 
 export default function ScanResultPage() {

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import {
     Bell,
-    Settings,
+    Bell,
     Moon,
     Sun,
     Globe,
@@ -23,7 +23,7 @@ import { useAuthStore } from "@/stores/auth-store";
 
 type SettingItem = {
     id: string;
-    icon: any;
+    icon: React.ElementType;
     label: string;
     action?: React.ReactNode;
     value?: string;

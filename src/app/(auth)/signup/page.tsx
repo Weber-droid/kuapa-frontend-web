@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useAuthStore } from "@/stores/auth-store";
 import { signupSchema, type SignupFormData } from "@/lib/validations/auth";
-import { CROP_LABELS, type CropType } from "@/types";
+import { type CropType } from "@/types";
 import { cn } from "@/lib/utils/cn";
 
 const cropOptions: { value: CropType; label: string }[] = [
@@ -274,7 +274,7 @@ export default function SignupPage() {
 
               <div className="space-y-3">
                 <Checkbox
-                  checked={agreeToTerms}
+                  checked={!!agreeToTerms}
                   onChange={(checked) =>
                     setValue("agreeToTerms", checked as true, {
                       shouldValidate: true,

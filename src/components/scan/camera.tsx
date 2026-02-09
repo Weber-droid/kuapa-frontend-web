@@ -63,7 +63,7 @@ export function CameraComponent({ onCapture, onClose }: CameraComponentProps) {
       // Check for flash support
       const track = stream.getVideoTracks()[0];
       const capabilities = track.getCapabilities?.();
-      setHasFlash(!!capabilities?.torch);
+      setHasFlash(!!(capabilities as any)?.torch);
     } catch (err) {
       console.error("Camera error:", err);
       if (err instanceof Error) {
@@ -161,7 +161,7 @@ export function CameraComponent({ onCapture, onClose }: CameraComponentProps) {
   useEffect(() => {
     startCamera();
     return () => stopCamera();
-  }, [startCamera, stopCamera]);
+  }, [startCamera, stopCamera, isReady]);
 
   // Restart camera when facing mode changes
   useEffect(() => {

@@ -5,7 +5,6 @@ import {
   ArrowLeft,
   Bug,
   AlertTriangle,
-  Leaf,
   Pill,
   Shield,
   ChevronDown,
@@ -15,8 +14,8 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Badge, SeverityBadge, CropBadge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import { SeverityBadge, CropBadge } from "@/components/ui/badge";
 import { getDiseaseById } from "@/lib/api/diseases";
 import { cn } from "@/lib/utils/cn";
 
@@ -95,8 +94,8 @@ export default function DiseaseDetailPage() {
           disease.severity === "critical"
             ? "bg-gradient-to-br from-danger-500 to-danger-600"
             : disease.severity === "high"
-            ? "bg-gradient-to-br from-warning-500 to-warning-600"
-            : "bg-gradient-to-br from-primary-500 to-primary-600"
+              ? "bg-gradient-to-br from-warning-500 to-warning-600"
+              : "bg-gradient-to-br from-primary-500 to-primary-600"
         )}
       >
         <div className="p-6 text-white">

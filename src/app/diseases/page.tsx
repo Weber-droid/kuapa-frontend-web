@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge, SeverityBadge, CropBadge } from "@/components/ui/badge";
-import { diseases, searchDiseases, getDiseasesByCrop } from "@/lib/api/diseases";
+import { diseases, searchDiseases } from "@/lib/api/diseases";
 import { CROP_LABELS, type CropType, type Disease } from "@/types";
 import { cn } from "@/lib/utils/cn";
 
@@ -238,8 +238,8 @@ function DiseaseItem({ disease }: { disease: Disease }) {
           disease.severity === "critical"
             ? "bg-danger-100 text-danger-600 dark:bg-danger-900/30 dark:text-danger-400"
             : disease.severity === "high"
-            ? "bg-warning-100 text-warning-600 dark:bg-warning-900/30 dark:text-warning-400"
-            : "bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-400"
+              ? "bg-warning-100 text-warning-600 dark:bg-warning-900/30 dark:text-warning-400"
+              : "bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-400"
         )}
       >
         <Bug className="h-6 w-6" />
