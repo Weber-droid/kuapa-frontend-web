@@ -1,0 +1,157 @@
+{
+  "common": {
+    "appName": "Kuapa",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "search": "Search",
+    "filter": "Filter",
+    "share": "Share",
+    "offline": "You are offline. Some features may be limited."
+  },
+  "nav": {
+    "home": "Home",
+    "scan": "Scan",
+    "history": "History",
+    "library": "Library",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Sign Up",
+    "logout": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "continueWith": "Or continue with",
+    "termsAgree": "I agree to the Terms of Service and Privacy Policy"
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "stats": {
+      "totalScans": "Total Scans",
+      "healthy": "Healthy",
+      "diseased": "Diseased",
+      "healthRate": "Health Rate"
+    },
+    "quickActions": "Quick Actions",
+    "recentScans": "Recent Scans",
+    "noScans": "No scans yet",
+    "startScanning": "Start by scanning a crop to detect diseases",
+    "scanFirst": "Scan your first crop",
+    "tips": {
+      "title": "Scanning Tips",
+      "content": "For best results, take photos in natural daylight and focus on the affected area of the plant. Close-up shots work best for disease detection."
+    }
+  },
+  "scan": {
+    "title": "Scan Your Crop",
+    "selectCrop": "What crop are you scanning?",
+    "captureImage": "Capture Image",
+    "takePhoto": "Take Photo",
+    "uploadImage": "Upload Image",
+    "reviewImage": "Review Image",
+    "analyzing": "Analyzing...",
+    "detectPatterns": "Detecting patterns...",
+    "identifyDisease": "Identifying disease...",
+    "generating": "Generating recommendations...",
+    "pleaseWait": "Please wait while we analyze your crop",
+    "retake": "Retake",
+    "analyze": "Analyze for Diseases",
+    "tips": {
+      "title": "Tips for best results",
+      "daylight": "Use natural daylight if possible",
+      "focus": "Focus on the affected area",
+      "steady": "Keep the camera steady",
+      "include": "Include both healthy and affected parts"
+    }
+  },
+  "result": {
+    "healthy": "Healthy Crop",
+    "diseaseDetected": "Disease Detected",
+    "confidence": "Confidence",
+    "about": "About this Disease",
+    "symptoms": "Symptoms",
+    "treatment": "Treatment",
+    "prevention": "Prevention",
+    "recommendations": "Recommendations",
+    "shareResult": "Share Result",
+    "newScan": "New Scan",
+    "viewFull": "View full disease information"
+  },
+  "history": {
+    "title": "Scan History",
+    "noHistory": "No Scan History",
+    "startScanning": "Start scanning your crops to build your history",
+    "searchScans": "Search scans...",
+    "status": "Status",
+    "all": "All",
+    "healthy": "Healthy",
+    "diseased": "Diseased",
+    "cropType": "Crop Type",
+    "noResults": "No results found",
+    "adjustFilters": "Try adjusting your search or filters"
+  },
+  "diseases": {
+    "title": "Disease Library",
+    "subtitle": "Learn about common crop diseases and treatments",
+    "searchDiseases": "Search diseases...",
+    "severity": "Severity",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical",
+    "causes": "Causes",
+    "culturalPractices": "Cultural Practices",
+    "organicSolutions": "Organic Solutions",
+    "chemicalTreatments": "Chemical Treatments",
+    "disclaimer": "This information is for educational purposes. Consult local agricultural experts for specific advice."
+  },
+  "profile": {
+    "title": "Profile",
+    "signInPrompt": "Sign in to view your profile",
+    "createAccount": "Create an account to save your scans and preferences",
+    "farmDetails": "Farm Details",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "farmName": "Farm Name",
+    "crops": "Crops",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "language": "Language",
+    "privacy": "Privacy & Security",
+    "help": "Help & Support",
+    "dataManagement": "Data Management",
+    "clearHistory": "Clear Scan History",
+    "clearConfirm": "This will permanently delete all your scan history. This action cannot be undone."
+  },
+  "crops": {
+    "cocoa": "Cocoa",
+    "cassava": "Cassava",
+    "maize": "Maize",
+    "plantain": "Plantain",
+    "rice": "Rice",
+    "tomato": "Tomato",
+    "pepper": "Pepper",
+    "other": "Other"
+  }
+}

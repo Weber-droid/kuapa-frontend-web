@@ -1,0 +1,157 @@
+{
+  "common": {
+    "appName": "Kuapa",
+    "loading": "Reloading...",
+    "error": "Error",
+    "success": "Aye yie",
+    "cancel": "Gyae",
+    "confirm": "Si so dua",
+    "save": "Sie",
+    "delete": "Popa",
+    "edit": "Sesa",
+    "back": "San",
+    "next": "Nea edi hɔ",
+    "done": "Wie",
+    "search": "Hwehwɛ",
+    "filter": "Filter",
+    "share": "Kyɛ",
+    "offline": "Wonni internet. Nneɛma bi rentumi nyɛ adwuma."
+  },
+  "nav": {
+    "home": "Fie",
+    "scan": "Hwɛ",
+    "history": "Nea ɛtwaa mu",
+    "library": "Nhoma korabea",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login": "Bra mu",
+    "signup": "Kyerɛw din",
+    "logout": "Fi mu",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Si password no so dua",
+    "forgotPassword": "Password no awera wo?",
+    "resetPassword": "Sesa password",
+    "rememberMe": "Kae me",
+    "noAccount": "Wonni account?",
+    "hasAccount": "Wowɔ account dada?",
+    "continueWith": "Anaa toa so wɔ",
+    "termsAgree": "Megye nhyehyɛe no tom"
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "Maakye",
+      "afternoon": "Maaha",
+      "evening": "Maadwo"
+    },
+    "stats": {
+      "totalScans": "Hwɛ nyinaa",
+      "healthy": "Apɔ mu yɛ",
+      "diseased": "Yareɛ wom",
+      "healthRate": "Apɔ mu yɛ"
+    },
+    "quickActions": "Yɛ ntɛm",
+    "recentScans": "Nea ɛtwaa mu",
+    "noScans": "Wonhwɛeɛ hwee da",
+    "startScanning": "Fi ase hwɛ wo nnɔbae mu",
+    "scanFirst": "Hwɛ wo nnɔbae a edi kan",
+    "tips": {
+      "title": "Nhwɛsode",
+      "content": "Sɛ worehwɛ a, fa mfoni wɔ hann pa mu na hwɛ baabi a yareɛ no wɔ. Mfoni a ɛbɛn wɔ ho."
+    }
+  },
+  "scan": {
+    "title": "Hwɛ wo nnɔbae",
+    "selectCrop": "Nnɔbae bɛn na worehwɛ?",
+    "captureImage": "Fa mfoni",
+    "takePhoto": "Twe mfoni",
+    "uploadImage": "Fa mfoni bra",
+    "reviewImage": "Hwɛ mfoni no",
+    "analyzing": "Ɛrehwɛ mu...",
+    "detectPatterns": "Ɛrehwehwɛ...",
+    "identifyDisease": "Ɛrehu yareɛ no...",
+    "generating": "Ɛreyɛ afotu...",
+    "pleaseWait": "Twɛn kakra",
+    "retake": "Twe bio",
+    "analyze": "Hwehwɛ yareɛ",
+    "tips": {
+      "title": "Nhwɛsode",
+      "daylight": "Fa hann pa mu mfoni",
+      "focus": "Hwɛ baabi a yareɛ no wɔ",
+      "steady": "Ma camera no nyɛ dinn",
+      "include": "Fa baabi a apɔ mu yɛ ne baabi a ɛyare"
+    }
+  },
+  "result": {
+    "healthy": "Apɔ mu yɛ",
+    "diseaseDetected": "Yareɛ wom",
+    "confidence": "Nokware",
+    "about": "Fa yareɛ yi ho nsɛm",
+    "symptoms": "Nsɛnkyerɛnne",
+    "treatment": "Nnuro",
+    "prevention": "Bɔ ho ban",
+    "recommendations": "Afotu",
+    "shareResult": "Kyɛ",
+    "newScan": "Hwɛ foforo",
+    "viewFull": "Hwɛ nsɛm nyinaa"
+  },
+  "history": {
+    "title": "Nea ɛtwaa mu",
+    "noHistory": "Wonhwɛeɛ hwee da",
+    "startScanning": "Hwɛ wo nnɔbae",
+    "searchScans": "Hwehwɛ...",
+    "status": "Tebea",
+    "all": "Nyinaa",
+    "healthy": "Apɔ mu yɛ",
+    "diseased": "Yareɛ wom",
+    "cropType": "Nnɔbae",
+    "noResults": "Biara nnim",
+    "adjustFilters": "Sesa wo nhwehwɛmu"
+  },
+  "diseases": {
+    "title": "Yareɛ ahorow",
+    "subtitle": "Sua fa nnɔbae yareɛ ahorow ho",
+    "searchDiseases": "Hwehwɛ yareɛ...",
+    "severity": "Ne mu den",
+    "low": "Ketewa",
+    "medium": "Ntem",
+    "high": "Kɛse",
+    "critical": "Kɛse pa ara",
+    "causes": "Nea ɛde baeɛ",
+    "culturalPractices": "Amammerɛ mu nnwuma",
+    "organicSolutions": "Nnuro a efi srade mu",
+    "chemicalTreatments": "Nnuro a ɛyɛ den",
+    "disclaimer": "Nsɛm yi yɛ adesua. Bisa wokurom ho nimdefoɔ."
+  },
+  "profile": {
+    "title": "Profile",
+    "signInPrompt": "Bra mu na hwɛ wo profile",
+    "createAccount": "Yɛ account na sie wo nhwɛmu",
+    "farmDetails": "Afuo ho nsɛm",
+    "name": "Din",
+    "email": "Email",
+    "phone": "Fon",
+    "location": "Baabi",
+    "farmName": "Afuo din",
+    "crops": "Nnɔbae",
+    "settings": "Settings",
+    "notifications": "Nsɛm",
+    "language": "Kasa",
+    "privacy": "Ahobammɔ",
+    "help": "Mmoa",
+    "dataManagement": "Nsɛm sie",
+    "clearHistory": "Popa wo nhwɛmu",
+    "clearConfirm": "Eyi bɛpopa wo nhwɛmu nyinaa. Worentumi nsan nyɛ."
+  },
+  "crops": {
+    "cocoa": "Kookoo",
+    "cassava": "Bankye",
+    "maize": "Aburo",
+    "plantain": "Borɔdɛ",
+    "rice": "Ɛmo",
+    "tomato": "Ntɔɔs",
+    "pepper": "Mmako",
+    "other": "Afoforo"
+  }
+}
